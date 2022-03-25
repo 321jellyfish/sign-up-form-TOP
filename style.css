@@ -77,6 +77,14 @@ button {
     margin-bottom: 20px;
 }
 
+button:hover {
+    background-color: 	rgb(128,128,128);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
