@@ -27,13 +27,14 @@ img {
     margin: 0;
 }*/
 
-/* .form-flex { */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: nowrap; */
-    /* padding: 30px; */
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px;
     /* padding-left: 30px; */
-/* } */
+    width: 750px;
+}
 
 input {
     width: 200px;
@@ -60,7 +61,7 @@ form {
     padding-left: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    box-shadow: 0 3px 8px 0 rgba(178, 190, 181);  
+    box-shadow: 0 5px 9px rgba(178, 190, 181);  
 }
 
 button,
