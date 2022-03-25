@@ -14,7 +14,14 @@ form {
 }
 
 header {
-    background-color: rgba(178, 190, 181, 0.2);
     padding: 80px;
 }
 
+.main-text {
+    background-color: rgba(178, 190, 181, 0.2);
+}
+
+form {
+    background-color: rgb(255, 255, 255)
+    /* box-shadow: 5px 5px rgb(0,0,0);   */
+}
