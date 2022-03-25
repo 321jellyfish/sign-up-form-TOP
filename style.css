@@ -27,13 +27,13 @@ img {
     margin: 0;
 }*/
 
-.form-flex {
+/* .form-flex { */
     /* display: flex; */
     /* flex-direction: column; */
     /* flex-wrap: nowrap; */
     /* padding: 30px; */
     /* padding-left: 30px; */
-}
+/* } */
 
 input {
     width: 200px;
@@ -99,4 +99,9 @@ a:hover {
 :focus {
     /* border-color: blue; */
     box-shadow: 0 0 5px rgba(178, 190, 181);
+}
+
+.error {
+    border: solid red;
+    border-radius: 3px;
 }
