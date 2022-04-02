@@ -51,6 +51,10 @@ h1 {
     /* width: 750px; */
 }
 
+.column-holder {
+    display: flex;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
