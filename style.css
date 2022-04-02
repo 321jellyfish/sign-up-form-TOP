@@ -12,20 +12,20 @@ img {
 .icon {
     height: 100px;
     position: absolute;
-    top: 150px;
-    left: 100px;
+    top: 170px;
+    left: 70px;
 
 }
 
-/*.icon-background {
+.icon-background {
     height: 150px;
-    width: 400px;
-    background-color: white;
+    width: 454px;
+    background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 150px;
-    left: 100px;
+    /* left: 100px; */
     margin: 0;
-}*/
+}
 
 .form-flex {
     display: flex;
