@@ -17,21 +17,36 @@
         <header>
             <p>Sign up to go on an amazing journey to space, if you're interested in visiting far away planets then sign up now!</p>
         </header>
-        <div class="form-flex">
-        <form action="post" id="form">
-            <h2>Let's do this!</h2>
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" id="first-name" name="first-name" placeholder="Buzz">
-            <label for="last-name">LAST NAME</label>
-            <input type="text" id="last-name" name="last-name" placeholder="Aldrin" >
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email" placeholder="buzz@gmail.com">
-            <label for="pwd">PASSWORD</label>
-            <input type="password" id="pwd" name="pwd" class="error">
-            <label for="pwd-confirm">CONFIRM PASSWORD</label>
-            <input type="password" id="pwd-confirm" name="pwd-confirm" class="error">
-        </form>
-        </div>
+        <!-- <div class="form-flex"> -->
+            <form action="post" id="form">
+                <h2>Let's do this!</h2>
+                <div class="form-group">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Buzz">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Aldrin" >
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="buzz@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="telephone">TELEPHONE</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="01246 576890">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" id="pwd" name="pwd" class="error">
+                </div>
+                <div class="form-group">
+                    <label for="pwd-confirm">CONFIRM PASSWORD</label>
+                    <input type="password" id="pwd-confirm" name="pwd-confirm" class="error">
+                </div>
+            </form>
+        
+        <!-- </div> -->
         <button form="form">Create Account</button>
         <p>Already have an account? <a href="">Log in</a></p>
     </div>
