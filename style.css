@@ -41,18 +41,13 @@ h1 {
     margin: 0;
 }
 
-.form-flex {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: nowrap; */
-    margin-top: 70px;
-    /* padding: 30px; */
-    /* padding-left: 30px; */
-    /* width: 750px; */
-}
-
 .column-holder {
     display: flex;
+}
+
+form {
+    margin-top: 70px;
+    padding-top: 20px;
 }
 
 .form-group {
