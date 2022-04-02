@@ -46,7 +46,6 @@ h1 {
 }
 
 form {
-    margin-top: 70px;
     padding-top: 20px;
 }
 
@@ -69,6 +68,7 @@ label {
 
 header {
     padding: 80px;
+    padding-bottom: 0px;
 }
 
 .main-text {
@@ -80,6 +80,7 @@ form {
     padding-left: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
+    margin-top: 82px;
     box-shadow: 0 5px 9px rgba(178, 190, 181);  
 }
 
@@ -97,6 +98,7 @@ button {
     border-radius: 3px;
     border: none;
     margin-bottom: 20px;
+    margin-top: -1px;
 }
 
 button:hover {
